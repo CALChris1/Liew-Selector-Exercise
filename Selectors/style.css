@@ -1,0 +1,27 @@
+/* Universal Selector */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Class Selector */
+/* class selectors are selectors that select html tags using its classname */
+.class-selector {
+  font-size: 24px;
+}
+
+/* ID Selector  */
+/* id seectors are selectors that select html tags using its id */
+#id-selector,
+#id1 {
+  font-family: cursive;
+}
+
+/* Element Selector */
+/* element selectors are selectors that select html tags */
+element {
+  font-weight: bold;
+}
+
+/* Combined Selector */
+/* combined selectors are selectors that select html tags that falls under multiple styling selectors. this is NOT to be confused with "Combinators" later on */
