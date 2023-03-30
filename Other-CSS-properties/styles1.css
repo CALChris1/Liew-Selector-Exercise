@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: darkblue;
+}
+
+h1,
+h2,
+span {
+  font-size: 36px;
+  font-family: "Poppins";
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+span {
+  font-size: 18px;
+  display: block;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+#john-doe {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  height: 300px;
+  width: 300px;
+  font-size: 36px;
+}
+
+#first {
+  background-color: red;
+}
+
+#second {
+  background-color: green;
+}
+
+#third {
+  background-color: blue;
+}
+
+#king {
+  width: 343px;
+  margin-right: 30px;
+}
+
+.king-queen-container {
+  height: auto;
+  width: 70vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#css-logo {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.transition-item {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: skyblue;
+  margin-bottom: 20px;
+}
+
+#transitions-container {
+  height: auto;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}

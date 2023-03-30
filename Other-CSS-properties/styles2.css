@@ -1,0 +1,127 @@
+/* Position */
+#css-banner {
+  position: relative;
+  left: 300px;
+}
+
+/* Z-index */
+.z-index {
+  position: relative;
+}
+
+#first {
+  z-index: 3;
+}
+
+#second {
+  top: -250px;
+  left: 100px;
+  z-index: 2;
+}
+
+#third {
+  top: -500px;
+  z-index: 4;
+  left: 150px;
+}
+
+/* Opacity */
+#king:hover {
+  opacity: 25%;
+}
+
+#queen:hover {
+  opacity: 0.5;
+}
+
+/* Transform */
+#css-logo {
+  animation: rotate-logo 2s linear infinite normal;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+
+#css-logo:hover {
+  animation-play-state: paused;
+}
+
+/* Transsition */
+#king,
+#queen,
+#css-logo {
+  transition: opacity 1s ease-in, transform 3s linear;
+}
+
+#transitions-container:hover div {
+  transform: translateX(500px);
+}
+
+.transition-item {
+  transition: transform 2s;
+}
+
+#a {
+  transition-timing-function: cubic-bezier(0.29, -0.14, 0.29, 0.75);
+}
+
+#b {
+  transition-timing-function: ease-in;
+}
+
+#c {
+  transition-timing-function: ease-in-out;
+}
+
+#d {
+  transition-timing-function: ease-out;
+}
+
+/* Animation */
+#animations-container {
+  width: 50vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#e {
+  animation: move-ball 1s infinite linear forwards alternate;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode;
+ */
+}
+
+#e:active {
+  animation-play-state: paused;
+}
+
+/* Keyframes */
+@keyframes move-ball {
+  25% {
+    background-color: red;
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+  75% {
+    transform: scale(2);
+  }
+  100% {
+    transform: translateX(500px);
+  }
+}
+
+@keyframes rotate-logo {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+/* !IMPORTANT */
+#john-doe {
+  opacity: 0%;
+}
+
+img {
+  opacity: 100% !important;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Power of CSS</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles1.css" />
+    <link rel="stylesheet" href="styles2.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>What can CSS do?</h1>
+      <!-- authors image  -->
+      <img src="./assets/john-doe.png" alt="john doe" id="john-doe" />
+      <span>by John Doe, January 10 2022</span>
+    </header>
+    <main>
+      <h1>CSS is the language that makes the web awesome</h1>
+      <h2>You can use CSS to correctly position your elements</h2>
+      <img src="./assets/css-banner.jpg" alt="css banner" id="css-banner" />
+
+      <h2>You can use CSS to place items on top of each other</h2>
+      <div id="first" class="z-index">1</div>
+      <div id="second" class="z-index">2</div>
+      <div id="third" class="z-index">3</div>
+
+      <h2>You can use CSS to adjust the visibility of items</h2>
+      <div class="king-queen-container">
+        <img src="./assets/king.png" alt="king" id="king" />
+        <img src="./assets/queen.jpeg" alt="queen" id="queen" />
+      </div>
+
+      <h2>You can use CSS to transform elements</h2>
+      <img src="./assets/css-logo.png" alt="css logo" id="css-logo" />
+
+      <h2>You can use CSS to slowly apply these transformations</h2>
+      <div id="transitions-container">
+        <div class="transition-item" id="a"></div>
+        <div class="transition-item" id="b"></div>
+        <div class="transition-item" id="c"></div>unit-4-css/other-CSS-properties/assets/css-logo.png
+        <div class="transition-item" id="d"></div>
+      </div>
+      <h2>You can use CSS to animate objects</h2>
+      <div id="animations-container">
+        <div class="transition-item" id="e"></div>
+      </div>
+    </main>
+  </body>
+</html>
