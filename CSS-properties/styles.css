@@ -1,0 +1,73 @@
+h1 {
+  color: black;
+}
+
+#hex-color {
+  color: #de1421;
+}
+
+#rgb-color {
+  color: rgb(222, 144, 20);
+}
+
+#hsl-color {
+  color: hsl(116, 83, 47);
+}
+
+#hex-bg-color {
+  /* Background-color #de1421*/
+  background-color: #de1421;
+}
+
+#rgb-bg-color {
+  background-color: rgb(222, 144, 20);
+}
+
+#hsl-bg-color {
+  background-color: hsl(116, 83, 47);
+}
+
+#box-shadow {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  border-width: 1px;
+  box-shadow: 10px 5px 5px red;
+}
+
+#text-shadow {
+  text-shadow: 1px 1px 2px yellow;
+}
+
+.border {
+  border: 5px dotted orange;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: overline dotted;
+  text-transform: lowercase;
+}
+
+.rubik-bubbles {
+  font-family: Rubik Bubbles;
+  font-size: 2em;
+}
+
+.overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#text-align-container {
+  width: 300px;
+  border: 1px solid black;
+}
+
+#text-align-demo {
+  text-align: justify;
+}
