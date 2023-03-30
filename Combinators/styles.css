@@ -1,0 +1,44 @@
+/* This is the Descendents Selectors Demo */
+/* p{
+    color: blue;
+}
+
+div p{
+
+    color: green;
+}
+
+div container p{
+    color: red;
+} */
+
+/* This is the Childs Selectors Demo */
+/* p {
+  color: blue;
+}
+
+.parent > p {
+  color: red;
+} */
+
+
+/* This is the Adjacent Siblings Selector Demo */
+/* p + p{
+    color: red;
+}
+
+p+span{
+    color: blue;
+}
+
+span+p{
+    color: green;
+} */
+
+/* This is the General Siblings Selectors Demo */
+p ~ p{
+    color: red;
+}
+
+
+
