@@ -1,0 +1,49 @@
+/* Hover */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: gold;
+  text-decoration: underline;
+}
+
+/* Focus */
+
+#ad-type:focus,
+#input:focus {
+  background-color: grey;
+  color: white;
+}
+
+/* Valid and Invalid */
+input:valid {
+  outline: 2px solid deepskyblue;
+  border-radius: 5px;
+  border: none;
+}
+
+input:invalid {
+  outline: 2px solid red;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Disabled */
+button:disabled {
+  background-color: dimgray;
+  color: linen;
+  opacity: 0.75;
+  border-radius: 5px;
+}
+
+/* Pseudo-Element */
+/* after */
+ol a:after {
+  content: " (navigate to the section here)";
+}
+
+ul a:after {
+  content: "(navigate to the actors imdb page here)";
+}
